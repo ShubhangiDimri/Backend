@@ -1,4 +1,6 @@
 //Q-3: Writing to the server using request-response statements as a callback in createServer() function.
+//http -modeule which is inbuilt in nodejs
+//and package is need to be installed using npm(node package manager)
 
 const http = require('http');
 const server = http.createServer((req, res) => {
