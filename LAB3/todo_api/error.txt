@@ -1,0 +1,5 @@
+app.use(express.json()); For parsing application/json
+-getting error and then  added a middleware for parsing the data
+
+
+route not found error -The word "get" is the action, not part of the resource's name becuase i was trying to visit http://localhost:3000/todos/get
